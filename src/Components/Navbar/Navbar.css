@@ -1,0 +1,115 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 3px -2px black;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .navbar.hide {
+    transform: translateY(-100%);
+  }
+  
+  .navbar.show {
+    transform: translateY(0);
+  }
+  
+  .navbar-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navlogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mainLogo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidelogos {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    
+  }
+  
+  .image {
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .navLogoImg {
+    height: 50px;
+    width: 160px;
+    /* margin-left: 600px; */
+  }
+  
+  .nav-items-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+  }
+  
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+    font-weight: 400;
+  }
+  
+  .nav-item:hover .nav-hr {
+    width: 100%;
+    background: red;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-hr {
+    width: 0;
+    border: none;
+    height: 2px;
+    background-color: transparent;
+    transition: width 0.3s ease-in-out;
+    margin-top: 5px;
+  }
+  
+  .dropdown-arrow {
+    width: 10px; /* Adjust size as needed */
+    height: 10px; /* Adjust size as needed */
+    background-image: url('../assets/arrow.svg'); /* Replace with your arrow image */
+    background-size: cover;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  

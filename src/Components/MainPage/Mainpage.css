@@ -1,0 +1,107 @@
+.Mainpage {
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .heading .head1 {
+    font-size: 50px;
+    background: linear-gradient(86.3deg, rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .hr1 {
+    width: 5%;
+    height: 2px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background: black;
+    transition: width 0.5s ease;
+  }
+  
+  .head1:hover + .hr1 {
+    width: 20%;
+    background: #F27BBD;
+  }
+  .hr2{
+    width: 10%;
+    height: 2px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    background: black;
+    transition: width 0.5s ease;
+
+  }
+  h2:hover + .hr2{
+    width: 70%;
+    background-color: #F27BBD;
+  }
+  
+  .content {
+    margin-top: 8px;
+    text-align: left;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title h2 {
+    font-size: 27px;
+    font-weight: bold;
+    background: linear-gradient(86.3deg, rgba(0,119,182,1) 3.6%, rgba(8,24,68,1) 87.6%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 8px;
+  }
+   .dropdown-label{
+    margin-right: 10px;
+  }
+  
+  .dropdown select {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow:3px 3px 5px #F3D0D7;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+    color: #686D76;
+    transition: border 0.2s ease-in-out;
+  }
+  
+  .data-table th {
+    background-color: #FFCBCB;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  .data-table td:hover {
+    border: 2px solid palevioletred;
+    color: black;
+    font-size:17.5px ;
+    border-radius: 10px;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+  
